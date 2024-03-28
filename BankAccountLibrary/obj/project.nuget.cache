@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pF0WPVMf1O4RuNBkl5M/TBmS+pyiCUdIY76wyQmr2X7PHLKel4SbasRjxxOaeRCK5I76DCAJPIg7mbu4JVlQ0w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Avdeeva Polina\\RiderProjects\\Task1\\BankAccountLibrary\\BankAccountLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Avdeeva Polina\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Avdeeva Polina\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\Avdeeva Polina\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}

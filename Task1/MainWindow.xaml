@@ -1,0 +1,60 @@
+﻿<Window x:Class="Task1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200px"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+        <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">Имя банка</Label>
+        <TextBox Grid.Row="0" Grid.Column="1" x:Name="BankNameBox" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100"/>
+        
+        <Label Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">ИНН</Label>
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="InnBox" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100"/>
+        
+        <Label Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">БИК</Label>
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="BikBox" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100"/>
+        
+        <Label Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">Номер корпоративного аккаунта</Label>
+        <TextBox Grid.Row="3" Grid.Column="1" x:Name="CorporateBox" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100"/>
+        
+        <Label Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">Баланс аккаунта</Label>
+        <TextBox Grid.Row="4" Grid.Column="1" x:Name="BalanceBox" PreviewTextInput="BalanceBox_OnPreviewTextInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100"/>
+        
+        <Label Grid.Row="5" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">Комиссия банка на переводы</Label>
+        <TextBox Grid.Row="5" Grid.Column="1" x:Name="WithdrawalCommissionBox" PreviewTextInput="BalanceBox_OnPreviewTextInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100"/>
+        
+        <Label Grid.Row="6" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">Процент банка на счёт</Label>
+        <TextBox Grid.Row="6" Grid.Column="1" x:Name="CreditRateBox" PreviewTextInput="BalanceBox_OnPreviewTextInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100"/>
+        
+        <TextBlock Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="4" x:Name="BankAccountLabel" ></TextBlock>
+        <Button Grid.Row="7" Grid.Column="0" Click="ButtonBase_OnClick" x:Name="CreateButton" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200">Создать</Button>
+        
+        <Label Grid.Row="8" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center">Изменение баланса аккаунта на</Label>
+        <TextBox Grid.Row="8" Grid.Column="1" x:Name="DepositBox" PreviewTextInput="BalanceBox_OnPreviewTextInput" HorizontalAlignment="Center" VerticalAlignment="Center" Width="100"/>
+        <Button Grid.Row="8" Grid.Column="2" Click="DepositButton_OnClick" x:Name="DepositButton" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200">Пополнить</Button>
+        
+        <Button Grid.Row="9" Grid.Column="1" Grid.ColumnSpan="3" Click="ChargePercentsInAccountButton_OnClick" x:Name="ChargePercentsInAccountButton" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200">Начислить проценты</Button>
+    </Grid>
+</Window>

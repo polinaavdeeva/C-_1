@@ -1,0 +1,11 @@
+C:\Users\Maxim Dolzhenko\RiderProjects\Task1\BankAccountLibrary\bin\Debug\net6.0\BankAccountLibrary.deps.json
+C:\Users\Maxim Dolzhenko\RiderProjects\Task1\BankAccountLibrary\bin\Debug\net6.0\BankAccountLibrary.dll
+C:\Users\Maxim Dolzhenko\RiderProjects\Task1\BankAccountLibrary\bin\Debug\net6.0\BankAccountLibrary.pdb
+C:\Users\Maxim Dolzhenko\RiderProjects\Task1\BankAccountLibrary\obj\Debug\net6.0\BankAccountLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxim Dolzhenko\RiderProjects\Task1\BankAccountLibrary\obj\Debug\net6.0\BankAccountLibrary.AssemblyInfoInputs.cache
+C:\Users\Maxim Dolzhenko\RiderProjects\Task1\BankAccountLibrary\obj\Debug\net6.0\BankAccountLibrary.AssemblyInfo.cs
+C:\Users\Maxim Dolzhenko\RiderProjects\Task1\BankAccountLibrary\obj\Debug\net6.0\BankAccountLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Maxim Dolzhenko\RiderProjects\Task1\BankAccountLibrary\obj\Debug\net6.0\BankAccountLibrary.dll
+C:\Users\Maxim Dolzhenko\RiderProjects\Task1\BankAccountLibrary\obj\Debug\net6.0\refint\BankAccountLibrary.dll
+C:\Users\Maxim Dolzhenko\RiderProjects\Task1\BankAccountLibrary\obj\Debug\net6.0\BankAccountLibrary.pdb
+C:\Users\Maxim Dolzhenko\RiderProjects\Task1\BankAccountLibrary\obj\Debug\net6.0\ref\BankAccountLibrary.dll
